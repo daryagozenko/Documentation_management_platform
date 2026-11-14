@@ -1,0 +1,37 @@
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# === Java / Maven ===
+java-backend/**/target/
+java-backend/**/.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+
+# === Python ===
+ml-services/**/__pycache__/
+ml-services/**/*.pyc
+ml-services/**/.venv/
+ml-services/**/venv/
+ml-services/**/.pytest_cache/
+ml-services/**/.mypy_cache/
+ml-services/**/*.egg-info/
+
+# === Node / React ===
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.next/
+npm-debug.log*
+pnpm-debug.log*
+
+# === Env / secrets ===
+.env
+.env.*
+!.env.example
+**/application-local.yml
+**/application-secret.yml
